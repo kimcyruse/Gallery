@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>Kim's Travel Gallery</title>
+	<!-- using bootstrap 3 cdn-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+
+</head>
+<body>
+
+	<!-- using an inverse and fixed top navbar  -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<!-- using a container  -->
+		<div class="container">
+			<!-- a div with a navbar-header for the brand  -->
+			<div class="navbar-header">
+
+				<!-- the hamburger - data-target must be the same as id in div class collapse - they are connected -->
+		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+				<!-- using the glyphicon with span to insert a picture gallery -->
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMG</a>
+			</div>
+
+			<!-- hide the contents when hit mobile size -->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<!-- using a ul with a classes nav navbar-nav to add items to the default left  -->
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<!-- using a ul with a classes nav navbar-nav navbar-right to add items to the default right  -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Log In</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<!-- using the glyphicon with span to insert a camera -->
+			<h1><i class="fas fa-camera-retro"></i> Kim's Travel Gallery</h1>
+			<p>“Traveling is more than just seeing of sights; It gives you a different perspective on life.”</p>
+		</div>
+
+		<!-- gridsystem !-->
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1502285745115-13e43e3faad4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1513617426959-c2860cf26415?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1545290614-5ceedf604139?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1552074283-095fd4e8dfc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1487511657539-186f9172833f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1465173904241-1f101f249d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1517518122281-4bc4c8252cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1515467135277-8e8dcd900d44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80">
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1550443640-6e18cdd503a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+<!-- using JavaScript CDN to use Bootstrap Javascript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
